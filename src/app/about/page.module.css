@@ -1,0 +1,45 @@
+.container {
+}
+
+.imgContainer {
+  width: 100%;
+  height: 450px;
+  position: relative;
+}
+
+.img {
+  object-fit: cover;
+  object-position: top;
+
+  /* fotografi gri yapar */
+  filter: grayscale(100%);
+}
+
+.imgText {
+  position: absolute;
+  float: right;
+  bottom: 20px;
+  right: 20px;
+  background-color: #53c28b;
+  padding: 5px;
+  color: white;
+}
+
+.textContainer {
+  display: flex;
+  gap: 100px;
+}
+
+.item {
+  flex: 1;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.desc {
+  font-size: 18px;
+  font-weight: 300;
+  text-align: justify;
+}
